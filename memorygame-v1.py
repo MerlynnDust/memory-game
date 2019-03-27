@@ -14,6 +14,7 @@ def grab_a_sentence(text):
     global grabbedSentence
     grabbedSentence = listedText[random.randint(0,listedTextLength)]
     print(grabbedSentence)
+    
 def wait_and_clearscreen(timeVar):
     time.sleep(timeVar)
     print(chr(27) + "[2J")
